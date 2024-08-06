@@ -64,7 +64,7 @@ python vital_path/run.py --dataset_name 'CUB'
 
 ![](figs/partially.png)
 
-###The fully aligned (100%) clustering performance:
+### The fully aligned (100%) clustering performance:
 
 ![](figs/fully.png)
 
