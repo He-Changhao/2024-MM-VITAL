@@ -18,15 +18,15 @@ def get_args_parser():
     parser = argparse.ArgumentParser()
 
     # Dataset info.
-    parser.add_argument('--dataset_name', default='Scene-15', type=str, 
+    parser.add_argument('--dataset_name', default='CUB', type=str, 
                         choices=['CUB', 'Scene-15', 'WIKI', 'NUS-WIDE', 'Deep Animal', 'Deep Caltech-101', 'MNIST-USPS', 'NoisyMNIST'],
                         help='The name of the dataset.')
     parser.add_argument('--num_classes', default=10, type=int, help='Number of classes in the dataset.')
     parser.add_argument('--aligned_rate', default=0.5, type=float, help='PVP setting aligned rate.')
     parser.add_argument('--train_time', default=5, type=int, help='Number of training iterations.')
-    parser.add_argument('--dataset_path', default='/media/ssd2/hech/2024-VITAL-main/datasets/', type=str, help='Path to the dataset.')
-    parser.add_argument('--log_path', default='/media/ssd2/hech/2024-VITAL-main/log/', type=str, help='Path to save logs.')
-    parser.add_argument('--config_path', default='/media/ssd2/hech/2024-VITAL-main/config/', type=str, 
+    parser.add_argument('--dataset_path', default='./datasets/', type=str, help='Path to the dataset.')
+    parser.add_argument('--log_path', default='./log/', type=str, help='Path to save logs.')
+    parser.add_argument('--config_path', default='./config/', type=str, 
                         help='Path to the configuration files.')
 
     # Network architecture
@@ -38,7 +38,7 @@ def get_args_parser():
                         help='Generative model layer dimensions in the form of a list of lists.')
     parser.add_argument('--activation', default='none', type=str, 
                         choices=['none', 'relu', 'tanh'], 
-                        help='Activation function used in the embedding layer of the recognition model.')
+                        help='Activation function used in the adaption layer of the recognition model.')
     parser.add_argument('--use_dropout', default=True, type=bool, help='Whether to use dropout in the model.')
     parser.add_argument('--dropout_rate', default=0.2, type=float, help='Dropout rate if dropout is used.')
     parser.add_argument('--temperature', default=0.4, type=float, help='Temperature parameter for model training.')
@@ -46,7 +46,7 @@ def get_args_parser():
     # Optimizer parameters
     parser.add_argument('--batch_size', default=1024, type=int, help='Batch size for training.')
     parser.add_argument('--vcl_epochs', default=100, type=int, help='Number of epochs for VCL training.')
-    parser.add_argument('--vcl_dr_epochs', default=110, type=int, help='Number of epochs for VCL-DR training.')
+    parser.add_argument('--vcl_dr_epochs', default=110, type=int, help='Number of epochs for total training.')
     parser.add_argument('--vcl_lr', default=2e-3, type=float, help='Learning rate for VCL training.')
     parser.add_argument('--vcl_dr_lr', default=1e-4, type=float, help='Learning rate for VCL-DR training.')
 
