@@ -60,10 +60,12 @@ python vital_path/run.py --dataset_name 'CUB'
 
 ## Experiment Results
 
-The partially aligned (50%) clustering performance:
+### The partially aligned (50%) clustering performance:
+
 ![](figs/partially.png)
 
-The fully aligned (100%) clustering performance:
+###The fully aligned (100%) clustering performance:
+
 ![](figs/fully.png)
 
 ## Reference
