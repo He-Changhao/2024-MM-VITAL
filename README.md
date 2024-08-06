@@ -68,7 +68,7 @@ python vital_path/run.py --dataset_name 'CUB'
 
 ![](figs/fully.png)
 
-## Reference
+## Citation
 
 If you find our work useful in your research, please consider citing:
 
