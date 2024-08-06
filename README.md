@@ -27,7 +27,7 @@
 The datasets used in our paper can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1k3AkKiWD51ORoV11YZnmjbIZOnKp00n8?usp=sharing). Each dataset's configuration is written in a .yaml file located in the `config` folder. The parameters are explained in the `get_args_parser()` function in `run.py`. The structure of the datasets and their corresponding .yaml files should be as follows:
 
 ```
-2024-VITAL-main
+VITAL-path
     └─── datasets
         │   CUB.mat
         │   Deep Animal.mat
