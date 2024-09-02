@@ -76,7 +76,8 @@ If you find our work useful in your research, please consider citing:
 @inproceedings{he2024robust,
   title={Robust Variational Contrastive Learning for Partially View-unaligned Clustering},
   author={He, Changhao and Zhu, Hongyuan and Hu, Peng and Peng, Xi},
-  booktitle={ACM Multimedia 2024}
+  booktitle={ACM Multimedia 2024},
+  year={2024}
 }
 ```
 
