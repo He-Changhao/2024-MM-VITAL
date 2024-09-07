@@ -23,8 +23,8 @@ temperature: 0.4
 batch_size: 512
 vcl_epochs: 100
 vcl_lr: 0.002
-vcl-dr_epochs: 110
-vcl-dr_lr: 0.0001
+vcl_dr_epochs: 110
+vcl_dr_lr: 0.0001
 
 # Other parameters
 data_norm: 'min-max'
