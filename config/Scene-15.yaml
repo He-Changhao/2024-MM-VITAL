@@ -28,7 +28,7 @@ vcl-dr_lr: 0.0001
 
 # Other parameters
 data_norm: 'min-max'
-fitting_type: 'sim'
+fitting_type: 'loss'
 mask_scheme: 'vital'
 init_alpha: 0.1
 fix_alpha: False
