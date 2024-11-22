@@ -1,6 +1,6 @@
 # 2024-MM-VITAL
 
-[[ACM MM 2024](https://2024.acmmm.org/)] Code for the paper "[Robust Variational Contrastive Learning for Partially View-unaligned Clustering](https://openreview.net/pdf?id=eZpm234cw2)"
+[[ACM MM 2024](https://2024.acmmm.org/)] Code for the paper "[Robust Variational Contrastive Learning for Partially View-unaligned Clustering]([https://openreview.net/pdf?id=eZpm234cw2](https://dl.acm.org/doi/abs/10.1145/3664647.3681331))"
 
 ![](figs/pipeline.png)
 
@@ -76,7 +76,8 @@ If you find our work useful in your research, please consider citing:
 @inproceedings{he2024robust,
   title={Robust Variational Contrastive Learning for Partially View-unaligned Clustering},
   author={He, Changhao and Zhu, Hongyuan and Hu, Peng and Peng, Xi},
-  booktitle={ACM Multimedia 2024},
+  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+  pages={4167--4176},
   year={2024}
 }
 ```
