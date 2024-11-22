@@ -1,6 +1,6 @@
 # 2024-MM-VITAL
 
-[[ACM MM 2024](https://2024.acmmm.org/)] Code for the paper "[Robust Variational Contrastive Learning for Partially View-unaligned Clustering]([https://openreview.net/pdf?id=eZpm234cw2](https://dl.acm.org/doi/abs/10.1145/3664647.3681331))"
+[[ACM MM 2024](https://2024.acmmm.org/)] Code for the paper "[Robust Variational Contrastive Learning for Partially View-unaligned Clustering]([https://dl.acm.org/doi/abs/10.1145/3664647.3681331])"
 
 ![](figs/pipeline.png)
 
