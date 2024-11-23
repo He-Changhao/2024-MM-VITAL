@@ -1,7 +1,7 @@
 # 2024-MM-VITAL
 
 ## 📰 News
-🎉 **Our method now supports clustering on any number of views!**  
+🎉 **VITAL now supports clustering on any number of views!**  
 We will release this version in a future update.  
 If you need it now, feel free to email me at [hechanghao.gm@gmail.com](mailto:hechanghao.gm@gmail.com).
 For any other questions or inquiries, feel free to reach out as well!
