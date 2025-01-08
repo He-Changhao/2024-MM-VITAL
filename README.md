@@ -1,11 +1,5 @@
 # 2024-MM-VITAL
 
-## 📰 News
-🎉 **VITAL now supports clustering on any number of views!**  
-We will release this version in a future update.  
-If you need it now, feel free to email me at [hechanghao.gm@gmail.com](mailto:hechanghao.gm@gmail.com).
-For any other questions or inquiries, feel free to reach out as well!
-
 [[ACM MM 2024](https://2024.acmmm.org/)] Code for the paper "[Robust Variational Contrastive Learning for Partially View-unaligned Clustering](https://dl.acm.org/doi/abs/10.1145/3664647.3681331/)]"
 
 ![](figs/pipeline.png)
