@@ -1,0 +1,38 @@
+# Dataset info.
+dataset_name: 'NoisyMNIST'
+num_classes: 10
+aligned_rate: 1.0
+train_time: 5
+dataset_path: './datasets/'
+log_path: './log/'
+config_path: './config/'
+
+# Network architecture
+recognition_model_dims:
+  - [ 784, 1024, 1024, 1024, 256 ]
+  - [ 784, 1024, 1024, 1024, 256 ]
+generative_model_dims:
+  - [ 128, 1024, 1024, 1024, 784 ]
+  - [ 128, 1024, 1024, 1024, 784 ]
+activation: 'none'
+use_dropout: True
+dropout_rate: 0.5 # 0.2 or 0.1 when PVP setting
+temperature: 0.4
+
+# Optimizer parameters
+batch_size: 1024
+vcl_epochs: 100
+vcl_lr: 0.002
+vcl_dr_epochs: 110
+vcl_dr_lr: 0.0001
+
+# Other parameters
+data_norm: 'min-max'
+fitting_type: 'loss'
+mask_scheme: 'vital'
+init_alpha: 0.1
+fix_alpha: False
+feats_norm: False
+
+# GPU parameters
+gpu: '0'
